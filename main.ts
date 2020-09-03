@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
     } else {
         music.playTone(988, music.beat(BeatFraction.Whole))
     }
-    music.playMelody("E B C5 A B G A F ", 40)
+    music.playMelody("E B C5 A B G A F ", 159)
     basic.showLeds(`
         . . . . .
         . . # . .
